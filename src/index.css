@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+
+/*  Landing */
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.center-image {
+  background: url('images/tahoe.jpg') center;
+  background-size: cover;
+}
+
+.main > .intro {
+  font-family: 'Reem Kufi', sans-serif;
+  color: #ffffff;
+	font-size: 3.75em;
+	font-weight: 900;
+  opacity: 0.9;
+}
+.main > .intro:hover {
+  font-family: 'Reem Kufi', sans-serif;
+  color: #ffffff;
+	font-size: 3.75em;
+	font-weight: 900;
+  opacity: 1.0;
+}
+
+.main > .tagline {
+  font-size: 1.5rem;
+  color: #ffffff;
+	margin: 1.5rem 0;
+  opacity: 0.9;
+	font-weight: 900;
+}
+
+.main > .tagline:hover {
+  font-size: 1.5rem;
+	margin: 1.5rem 0;
+  opacity: 1.0;
+	font-weight: 900;
+}
+
+.icon-contact {
+  display: inline-block;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.icon-contact a {
+  padding-right: 10px;
+  opacity: 0.7;
+}
+
+.icon-contact a:hover {
+  padding-right: 10px;
+  opacity: 1.0;
+}
+
+.map-marker {
+  color: #ffffff;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+
+/*  NAV */
+
+.flexContainer {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.flexItem {
+    flex: 1;
+    padding: 0;
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+.blueBackground {
+    background: #7c7c7c;
+    outline: 1px solid;
+    opacity: 0.7;
+}
+.nav {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    padding: 0 1em;
+    color: white;
+    flex-grow: 1;
+}
+
+.nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.nav a > img {
+  height: 25px;
+}
+
+.flex-item {
+  border: 27px solid #7c7c7c;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex-item:hover {
+  background: #1e6d1d;
+  border: 27px solid #1e6d1d;
+}
+
+/*  About */
+.about-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.avatar {
+  width: 350px;
+  height: auto;
+  border: 10px solid #4f8751;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.profile { /* Container 1 */
+  display: flex;
+  flex-direction: row;
+}
+
+.about-1 { /* Experience */
+  flex: 2 0 0;
+  text-align: center;
+  margin: 0 20px 150px 20px;
+}
+.about-2 { /* Picture */
+  flex-direction: row;
+  flex: 1 0 0;
+  margin: 10px 0 150px 0;
+}
+
+.about-me {
+  text-align: center;
+  font-size: 24px;
+  margin: 0 0 30px 0;
+}
+
+.currently { /* Container 2 */
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px;
+}
+.currently li {
+  list-style: none;
+  margin: 10px 5px;
+  text-align: left;
+}
+
+.currently-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  font-size: 0.9em;
+  margin: 1em 5px;
+  flex-grow:0;
+}
+
+.currently-1 { /* Education */
+  text-align: center;
+  width: 50%;
+  text-color: #ff645d;
+  text-align: center;
+  flex: 2 2 15em;
+  margin: 0 100px 0 10px;
+}
+
+.currently-2 { /* Currently */
+  width: 50%;
+  text-align: center;
+  flex: 1 1 5em;
+}
+
+.currently-divider {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #9f9f9f;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.currently-text {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+
+.currently-item {
+  font-weight: 700;
+}
+
+.response-title {
+  text-decoration: underline;
+  height: 0;
+  margin: 10px 20px 0px 0;
+}
+
+.response-date {
+  font-style: oblique;
+  text-align: right;
+}
+
+.response-item {
+  text-align: left;
+  font-weight: 100;
+  color: #575f6b;
+}
+
+/*  Projects */
+.project-1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+/*  Form */
+.contact-form {
+  text-align: center;
+}
