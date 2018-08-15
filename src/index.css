@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: 100%;
 }
 
 /*  Landing */
@@ -16,6 +17,7 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 .center-image {
@@ -24,12 +26,12 @@ body {
 }
 
 .main > .intro {
-  font-family: 'Reem Kufi', sans-serif;
   color: #ffffff;
 	font-size: 3.75em;
 	font-weight: 900;
   opacity: 0.9;
 }
+
 .main > .intro:hover {
   font-family: 'Reem Kufi', sans-serif;
   color: #ffffff;
@@ -75,31 +77,36 @@ body {
   opacity: 0.7;
 }
 
-
 /*  NAV */
 
 .flexContainer {
     display: flex;
     font-family: 'Montserrat', sans-serif;
 }
+
 .flexItem {
     flex: 1;
     padding: 0;
 }
+
 .flexStart {
     justify-content: flex-start;
 }
+
 .flexEnd {
     justify-content: flex-end;
 }
-.blueBackground {
+
+.navBackground {
     background: #7c7c7c;
     outline: 1px solid;
     opacity: 0.7;
 }
+
 .nav {
     list-style: none;
 }
+
 .nav a {
     text-decoration: none;
     padding: 0 1em;
@@ -109,7 +116,6 @@ body {
 
 .nav a:hover {
   color: black;
-  text-decoration: underline;
 }
 
 .nav a > img {
@@ -128,21 +134,29 @@ body {
 }
 
 /*  About */
-.about-font {
-  font-family: 'Playfair Display', serif;
-}
 
 .avatar {
   width: 350px;
   height: auto;
-  border: 10px solid #4f8751;
+  border: 5px solid #4f8751;
   border-radius: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 30px;
 }
+
+.avatar:hover {
+  transform: translateX( -1px ) rotateY( 180deg );
+  -ms-transform: translateX( -1px ) rotateY(180deg);
+  -webkit-transform: translateX( -1px ) rotateY(180deg);
+}
+
 .profile { /* Container 1 */
   display: flex;
   flex-direction: row;
+}
+
+.about-header {
+  font-family: 'Playfair Display', serif;
 }
 
 .about-1 { /* Experience */
@@ -150,6 +164,7 @@ body {
   text-align: center;
   margin: 0 20px 150px 20px;
 }
+
 .about-2 { /* Picture */
   flex-direction: row;
   flex: 1 0 0;
@@ -158,15 +173,17 @@ body {
 
 .about-me {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.2rem;
   margin: 0 0 30px 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .currently { /* Container 2 */
   display: flex;
   flex-direction: row;
-  margin: 0 50px;
+  margin: 15px 100px;
 }
+
 .currently li {
   list-style: none;
   margin: 10px 5px;
@@ -180,7 +197,8 @@ body {
   text-align: left;
   font-size: 0.9em;
   margin: 1em 5px;
-  flex-grow:0;
+  flex-grow: 0;
+  font-family: 'Playfair Display', serif;
 }
 
 .currently-1 { /* Education */
@@ -190,12 +208,14 @@ body {
   text-align: center;
   flex: 2 2 15em;
   margin: 0 100px 0 10px;
+  font-family: 'Lato', sans-serif;
 }
 
 .currently-2 { /* Currently */
   width: 50%;
   text-align: center;
   flex: 1 1 5em;
+  font-family: 'Lato', sans-serif;
 }
 
 .currently-divider {
@@ -229,7 +249,7 @@ body {
 .response-item {
   text-align: left;
   font-weight: 100;
-  color: #575f6b;
+  color: #000d23;
 }
 
 /*  Projects */
@@ -239,6 +259,76 @@ body {
 }
 
 /*  Form */
+
+.lets-talk {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  border: dotted;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.submit-btn:hover {
+  background-color: #3e8e41
+}
+
+.submit-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .contact-form {
   text-align: center;
+  background-position: center;
+  color: transparent;
+  padding: 20px 70px;
+  color: black;
+}
+
+.contact-name {
+  width: 10%;
+}
+.contact-email {
+  width: 10%;
+}
+.contact-message {
+  width: 50%;
+  padding: 12px 20px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+
+/*  FOOTER */
+
+.footer {
+  position: fixed;
+  text-align: center;
+  right: 100px;
+  bottom: 0;
+  left: 100px;
+  padding: 0rem;
+  opacity: 0.5;
+  color: #ff3d3d;
 }

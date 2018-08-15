@@ -6,6 +6,7 @@ import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
+import Footer from './Footer'
 
 export default class App extends Component {
   render() {
@@ -20,6 +21,7 @@ export default class App extends Component {
           <Route path='/contact' component={Contact} />
           <Route render={() => <p>Not found</p>} />
         </Switch>
+        <Footer />
       </div>
     </Router>
     )

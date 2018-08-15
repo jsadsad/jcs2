@@ -6,7 +6,7 @@ import "../index.css"
 export default function Nav() {
   return (
     <div>
-      <nav className="flexContainer blueBackground">
+      <nav className="flexContainer navBackground">
           <ul className="nav flexItem flexStart">
               <li><NavLink exact activeClassName='active' to="/"><img className="favicon" src="favicon.ico" alt="temporary logo" /></NavLink></li>
           </ul>

@@ -4,18 +4,22 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="contact-form">
+        <p className="lets-talk">Get in touch?</p>
         <form name="contact" method="POST" netlify>
           <p>
-            <label>Your Name: <input type="text" name="name" /></label>
+            <label>Name<br/><input className="contact-name" type="text" name="name" placeholder="I am..."/></label>
           </p>
+          <br/>
           <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <label>Email<br/><input className="contact-email" type="email" name="email" placeholder="My mail is..."/></label>
           </p>
+          <br/>
           <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label>Message<br/><textarea className="contact-message" name="message" placeholder="Here's some nice words.."></textarea></label>
           </p>
+          <br/>
           <p>
-            <button type="submit">Send</button>
+            <button className="submit-btn" type="submit">Send</button>
           </p>
         </form>
       </div>

@@ -9,7 +9,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faMapMarkerAlt)
 
-class Home extends React.Component {
+export default class Home extends React.Component {
  render() {
    return (
      <div className='main center-image'>
@@ -24,5 +24,3 @@ class Home extends React.Component {
    )
  }
 }
-
-export default Home

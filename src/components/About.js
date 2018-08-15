@@ -5,18 +5,20 @@ import { faGem, faTv, faGamepad, faPlaneDeparture, faBook } from '@fortawesome/f
 
 import profileAvatar from '../images/portfolio_pic.jpg'
 
-class About extends React.Component {
+export default class About extends React.Component {
   render() {
     return (
-      <div className="about-font">
+      <div>
         <div className="profile">
           <div className="about-1">
-            <h2>Yo.</h2>
-            <div className="about-me">I am Software Engineer based in San Francisco, California. I care about solving problems through communicative and meticulous work.
-            I enjoy creating interactive applications that pose options for everywhere you go.</div>
+            <h2 className="about-header">Hello</h2>
+            <div className="about-me">I am Software Engineer based in San Francisco, California. I care about solving problems through communicative and detailed work. I enjoy creating interactive applications that pose options for everywhere you go.</div>
+            <div className="about-me">My hobbies include competitive video games, badminton, eating out, and thinking about my next travel destination.</div>
             <div className="about-me">I am a self-taught developer for about a year now.</div>
-            <hr/>
-            <h2>Skill:</h2>
+            <div className="currently-text">
+              <div className="currently-title">Skills</div>
+              <div className="currently-divider"></div>
+            </div>
             <div>
               <FontAwesomeIcon icon={['fab', 'html5']} size="7x" color="rgba(217	95 54)" fixedWidth />
               <FontAwesomeIcon icon={['fab', 'css3']} size="7x" color="rgba(94	158	188)" fixedWidth />
@@ -41,10 +43,10 @@ class About extends React.Component {
           </div>
             <h3 className="response-title">Flatiron School Full Stack Web Developement</h3>
             <h6 className="response-date">Dec. 2017 - Present</h6>
-            <div className="response-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat consequuntur itaque fugiat autem, delectus reiciendis quas nam sapiente dolore quam. Reiciendis sed quos molestiae dolor, cupiditate placeat aliquid quo tempora!</div>
+            <div className="response-item">A program that covers fundamentals, web frameworks, and full stack frameworks. Entirely all self-paced and demands a 1,000+ hours of learning.</div>
             <h3 className="response-title">De Anza College</h3>
             <h6 className="response-date">Sep. 2012 - June 2015</h6>
-            <div className="response-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, vero asperiores! Reprehenderit unde eius itaque repellendus assumenda aspernatur eveniet quibusdam, sed magni veniam, velit totam perspiciatis, id tenetur atque doloribus!</div>
+            <div className="response-item">Tooks multiple courses in the fine arts of theatre and cinematography. I developed an outstanding appreciation for movies and the underappreciated details.</div>
           </div>
           <div className="currently-2">
             <div className="currently-text">
@@ -73,5 +75,3 @@ class About extends React.Component {
     )
   }
 }
-
-export default About
