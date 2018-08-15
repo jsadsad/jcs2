@@ -6,15 +6,13 @@ import "../index.css"
 export default function Nav() {
   return (
     <div>
-      <nav className="flexContainer navBackground">
-          <ul className="nav flexItem flexStart">
-              <li><NavLink exact activeClassName='active' to="/"><img className="favicon" src="favicon.ico" alt="temporary logo" /></NavLink></li>
-          </ul>
-          <ul className="nav flexContainer flexEnd">
-              <li><NavLink exact activeClassName='active' className="flex-item" to="/about">About</NavLink></li>
-              <li><NavLink exact activeClassName='active' className="flex-item" to="/projects">Projects</NavLink></li>
-              <li><NavLink exact activeClassName='active' className="flex-item" to="/contact">Contact</NavLink></li>
-          </ul>
+      <nav className="nav-home">
+        <NavLink exact to="/"><img className="favicon" src="favicon.ico" alt="temporary logo" /></NavLink>
+      </nav>
+      <nav className="container brackets">
+        <NavLink exact activeStyle={{ color: '#4f8751' }} to="/about">About</NavLink>
+        <NavLink exact activeStyle={{ color: '#4f8751' }} to="/projects">Projects</NavLink>
+        <NavLink exact activeStyle={{ color: '#4f8751' }} to="/contact">Contact</NavLink>
       </nav>
     </div>
   )
