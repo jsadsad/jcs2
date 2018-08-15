@@ -1,11 +1,12 @@
 import React from 'react'
+import Success from './Success'
 
 export default class Contact extends React.Component {
   render() {
     return (
       <div className="contact-form">
         <p className="lets-talk">Get in touch?</p>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>Name<br/><input className="contact-name" type="text" name="name" placeholder="I am..."/></label>
           </p>
