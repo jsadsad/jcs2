@@ -16,9 +16,9 @@ export default class Home extends React.Component {
        <div className='intro'>Joshua Clarence S.</div>
        <div className='tagline'>Develop | Game | Travel </div>
        <div className="icon-contact">
-         <a href="https://github.com/jsadsad"><FontAwesomeIcon icon={['fab', 'github-square']} color="#ffffff" size='1x' /></a>
-         <a href="https://www.linkedin.com/in/joshsad2/"><FontAwesomeIcon icon={['fab', 'linkedin']} color="#ffffff" size='1x' /></a>
-         <a href="https://twitter.com/jcsad2"><FontAwesomeIcon icon={['fab', 'twitter-square']} color="#ffffff" size='1x' /></a>
+         <a href="https://github.com/jsadsad"><FontAwesomeIcon className="fa-github" icon={['fab', 'github-square']} color="#ffffff" size='1x'  /></a>
+         <a href="https://www.linkedin.com/in/joshsad2/"><FontAwesomeIcon className="fa-linkedin" icon={['fab', 'linkedin']} color="#ffffff" size='1x' /></a>
+         <a href="https://twitter.com/jcsad2"><FontAwesomeIcon className="fa-twitter" icon={['fab', 'twitter-square']} color="#ffffff" size='1x' /></a>
        </div>
      </div>
    )

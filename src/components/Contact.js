@@ -1,5 +1,4 @@
 import React from 'react'
-import Success from './Success'
 
 export default class Contact extends React.Component {
   render() {

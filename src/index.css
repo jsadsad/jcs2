@@ -26,34 +26,33 @@ body {
 }
 
 .main > .intro {
-
   color: #ffffff;
-	font-size: 3.75em;
-	font-weight: 900;
-  opacity: 0.9;
+  margin-bottom: -10px;
+	font-size: 3.7em;
+	font-weight: 300;
+  opacity: 0.8;
 }
 
 .main > .intro:hover {
-  font-family: 'Reem Kufi', sans-serif;
-  color: #ffffff;
-	font-size: 3.75em;
-	font-weight: 900;
-  opacity: 1.0;
+  color: #ff3d3d;
+	font-size: 3.7em;
+	font-weight: 500;
+  opacity: 0.5;
 }
 
 .main > .tagline {
   font-size: 1.5rem;
   color: #ffffff;
 	margin: 1.5rem 0;
-  opacity: 0.9;
-	font-weight: 900;
+  opacity: 0.8;
+	font-weight: 300;
 }
 
 .main > .tagline:hover {
   font-size: 1.5rem;
 	margin: 1.5rem 0;
-  opacity: 1.0;
-	font-weight: 900;
+  opacity: 2.0;
+	font-weight: 500;
 }
 
 .icon-contact {
@@ -64,18 +63,24 @@ body {
 
 .icon-contact a {
   padding-right: 10px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .icon-contact a:hover {
   padding-right: 10px;
-  opacity: 1.0;
+  opacity: 0.6;
 }
 
-.map-marker {
-  color: #ffffff;
-  font-weight: 900;
-  opacity: 0.7;
+.fa-github:hover {
+  color: #00d2b6;
+}
+
+.fa-linkedin:hover {
+  color: #00d2b6;
+}
+
+.fa-twitter:hover {
+  color: #00d2b6;
 }
 
 /*  NAV */
@@ -222,6 +227,9 @@ body {
   height: 1px;
   background-color: #9f9f9f;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transform:scale(0.9);
 }
 
 .currently-text {
