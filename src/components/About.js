@@ -55,19 +55,19 @@ export default class About extends React.Component {
               <h2 className="currently-title">Currently</h2>
               <div className="currently-divider"></div>
             </div>
-            <li className="currently-item"><FontAwesomeIcon icon={faTv} color="#4f8751" fixedWidth/> Watching</li>
+            <li className="currently-item"><FontAwesomeIcon icon={faTv} color="#4f8751" fixedWidth/>&nbsp; Watching</li>
               <div>
                 <ul className="response-item">Westworld (Season 2)</ul>
               </div>
-            <li className="currently-item"><FontAwesomeIcon icon={faGamepad} color="#4f8751" fixedWidth /> Playing</li>
+            <li className="currently-item"><FontAwesomeIcon icon={faGamepad} color="#4f8751" fixedWidth />&nbsp; Playing</li>
               <div>
                 <ul className="response-item">Splatoon 2</ul>
               </div>
-            <li className="currently-item"><FontAwesomeIcon icon={faPlaneDeparture} color="#4f8751" fixedWidth /> Flying</li>
+            <li className="currently-item"><FontAwesomeIcon icon={faPlaneDeparture} color="#4f8751" fixedWidth />&nbsp; Flying</li>
               <div>
                 <ul className="response-item">Philippines (Dec. 2018)</ul>
               </div>
-            <li className="currently-item"><FontAwesomeIcon icon={faBook} color="#4f8751" fixedWidth /> Reading</li>
+            <li className="currently-item"><FontAwesomeIcon icon={faBook} color="#4f8751" fixedWidth />&nbsp; Reading</li>
               <div>
                 <ul className="response-item">Meditations (Marcus Aurelius) </ul>
               </div>
