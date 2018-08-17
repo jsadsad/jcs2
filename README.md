@@ -1,5 +1,7 @@
 My first Portfolio Project using React and styling with Flexbox
 
+Added dependencies such as FontAwesome, react-router, and react-transition-group.
+
 First Screenshots of the site:
 
 ![Home Page](src/images/Home_a1.png)
