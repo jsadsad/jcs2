@@ -35,7 +35,6 @@ export default class App extends Component {
                   </Switch>
               </CSSTransition>
             </TransitionGroup>
-            <Footer />
           </div>
         )} />
     </Router>

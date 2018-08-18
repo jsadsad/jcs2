@@ -11,7 +11,7 @@ export default class About extends React.Component {
       <div>
         <div className="profile">
           <div className="about-1">
-            <h2 className="about-header">♫ Hello, it's me ♫</h2>
+            <h2 className="about-header">♫ It's me ♫</h2>
             <div className="about-me">I am Software Engineer based in San Francisco, California. I care about solving problems through communicative and detailed work. I enjoy creating interactive applications that pave easier accessibility anytime you need.</div>
             <div className="about-me">My hobbies include competitive Smash Bros., Badminton, eating out, and thinking about my next travel destination.</div>
             <div className="about-me">I am a self-taught developer for about a year now.</div>

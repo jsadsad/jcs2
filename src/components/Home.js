@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 import "../index.css"
 
@@ -20,6 +21,7 @@ export default class Home extends React.Component {
          <a href="https://www.linkedin.com/in/joshsad2/"><FontAwesomeIcon className="fa-linkedin" icon={['fab', 'linkedin']} color="#ffffff" size='1x' /></a>
          <a href="https://twitter.com/jcsad2"><FontAwesomeIcon className="fa-twitter" icon={['fab', 'twitter-square']} color="#ffffff" size='1x' /></a>
        </div>
+       <Footer />
      </div>
    )
  }
