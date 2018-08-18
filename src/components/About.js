@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGem, faTv, faGamepad, faPlaneDeparture, faBook } from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +10,7 @@ export default class About extends React.Component {
   render() {
     return (
       <div>
-        <div className="profile">
+        <div className="profile"> {/* Container 1*/}
           <div className="about-1">
             <h2 className="about-header">♫ It's me ♫</h2>
             <div className="about-me">I am Software Engineer based in San Francisco, California. I care about solving problems through communicative and detailed work. I enjoy creating interactive applications that pave easier accessibility anytime you need.</div>
@@ -71,7 +72,10 @@ export default class About extends React.Component {
               <div>
                 <ul className="response-item">Meditations (Marcus Aurelius) </ul>
               </div>
-          </div>
+          </div>{/* Container 2 */}
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     )
