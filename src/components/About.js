@@ -13,8 +13,8 @@ export default class About extends React.Component {
         <div className="profile"> {/* Container 1*/}
           <div className="about-1">
             <h2 className="about-header">♫ It's me ♫</h2>
-            <div className="about-me">I am Software Engineer based in San Francisco, California. I care about solving problems through communicative and detailed work. I enjoy creating interactive applications that pave easier accessibility anytime you need.</div>
-            <div className="about-me">My hobbies include competitive Smash Bros., Badminton, eating out, and thinking about my next travel destination.</div>
+            <div className="about-me">Hey, I am a Software Engineer raised in San Francisco, California. I care about solving problems through communicative and detailed work. My favorite thing about 'creating' applications is being able to push the boundaries of ideas to the extreme. To me, there's no end goal - just a better version.</div>
+            <div className="about-me">While not on my laptop, I'm usually looking for my next place to <a className="about-bits" href="https://www.yelp.com/collection/4qzyJqPF2qc-QZn50yYUMA">eat out</a>, playing competitve video games, working on an extracurricular, or simply thinking about my next travel adventure.</div>
             <div className="about-me">I am a self-taught developer for about a year now.</div>
             <div className="currently-text">
               <div className="currently-title">Skills</div>
@@ -45,11 +45,11 @@ export default class About extends React.Component {
           </div>
             <h3 className="response-title"><a href="https://flatironschool.com/">Flatiron School Full Stack Web Developement</a></h3>
             <h6 className="response-date">Dec. 2017 - Present</h6>
-            <div className="response-item">A Bootcamp that covers fundamentals, and frameworks. It's a community of online students all over the world tackling code labs with leader and mentor collaborations. Entirely all self-paced and demands a 1,000+ hours of learning.</div>
+            <div className="response-item">A Bootcamp that covers Fundamentals, and Frameworks. It's a community of online students all over the world tackling code labs with leader-mentor collaborations. Entirely all self-paced and demands a 1,000+ hours of learning.</div>
             <br/>
             <h3 className="response-title"><a href="http://www.deanza.edu/">De Anza College</a></h3>
             <h6 className="response-date">Sep. 2012 - June 2015</h6>
-            <div className="response-item">Tooks multiple courses in the fine arts of theatre and cinematography. I developed an outstanding appreciation for movies and the underappreciated details.</div>
+            <div className="response-item">I took multiple courses in the fine arts of cinematography and theatre. I developed an outstanding appreciation for movies and the underappreciated details. Mise-en-scène.</div>
           </div>
           <div className="currently-2">
             <div className="currently-text">
@@ -72,9 +72,10 @@ export default class About extends React.Component {
               <div>
                 <ul className="response-item">Meditations (Marcus Aurelius) </ul>
               </div>
-          </div>{/* Container 2 */}
+          </div>
         </div>
-        <div>
+        <br/><br/>
+        <div className="foot-bottom">
           <Footer />
         </div>
       </div>

@@ -109,11 +109,11 @@ body {
   text-align: center;
 }
 
-.container a {
+.navi a {
   color: #000000;
-  font-size: 1em;
+  font-size: 1.0em;
   text-decoration: none;
-  margin: 0px 10px;
+  margin: 0px 50px;
   padding: 10px 10px;
   position: relative;
   z-index: 0;
@@ -199,6 +199,38 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.about-bits {
+  color: #00bac7;
+  position: relative;
+  text-decoration: none;
+}
+
+.about-bits:hover {
+  color: #ff3d3d;
+  opacity: 0.5;
+}
+
+.about-bits:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff3d3d;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.about-bits:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 .currently { /* Container 2 */
   display: flex;
   flex-direction: row;
@@ -259,10 +291,18 @@ body {
   font-weight: 700;
 }
 
-.response-title {
+.response-title a {
+  text-decoration: none;
+  color: #000000;
+  height: 10px;
+  margin: 10px 20px auto;
+}
+
+.response-title a:hover {
   text-decoration: underline;
+  color: #000000;
   height: 0;
-  margin: 10px 20px 0px 0;
+  margin: 10px 20px auto;
 }
 
 .response-date {
@@ -359,6 +399,7 @@ input[type=text]:focus {
   text-align: center;
   right: 100px;
   left: 100px;
+  bottom: 0;
   padding: 0rem;
   opacity: 0.5;
   color: #ff3d3d;
